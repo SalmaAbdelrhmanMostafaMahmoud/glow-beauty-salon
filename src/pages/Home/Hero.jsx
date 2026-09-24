@@ -7,16 +7,15 @@ export default function Hero() {
         <h1 className="sr-only">Glow Salon</h1>
       </header>
 
-<section className="hero-section w-full h-[85vh] md:h-[85vh] min-h-[500px] max-h-[750px] relative overflow-hidden">        {/* background image */}
-        <img 
-          src="/hero.jpg" 
-          alt="" 
-          className="absolute inset-0 w-full h-full object-cover object-[center_25%] sm:object-[center_10%]"
-        />
-
-        {/* overlay - lighter, more contained gradient */}
-        <div className="absolute inset-0 bg-gradient-to-r from-white/70 via-white/20 to-transparent z-10"></div>
-
+<section className="hero-section w-screen h-[85vh] min-h-[500px] max-h-[750px] relative flex items-center">     
+      {/* background image */}
+<img 
+  src="/hero.jpg" 
+  alt="Glow Beauty Salon" 
+  className="absolute inset-0 w-full h-full object-cover object-center"
+/>
+        {/* overlay */}
+<div className="absolute inset-0 z-10"></div>
         {/* content */}
         <div className="absolute inset-0 z-20 flex items-center">
           <div className="lg:ps-12 md:ps-10 ms-5 max-w-lg p-3">
