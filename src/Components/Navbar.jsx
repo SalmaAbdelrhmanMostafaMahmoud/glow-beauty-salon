@@ -15,18 +15,17 @@ function Navbar() {
 
           {/* desktop links */}
           <ul className="hidden md:flex list-none items-center gap-6">
-            <li><a href="#home" className="text-[#9E3656] font-medium transition">Home</a></li>
-            <li><a href="#services" className="text-[#9E3656] font-medium transition">Services</a></li>
-            <li><a href="#gallery" className="text-[#9E3656] font-medium transition">Gallery</a></li>
-            <li><a href="#about" className="text-[#9E3656] font-medium transition">About Us</a></li>
-            <li><a href="#contact" className="text-[#9E3656] font-medium transition">Contact</a></li>
+            <li><a href="#home" className="text-[#9E3656] font-medium transition hover:text-[#6A2238]">Home</a></li>
+            <li><a href="#services" className="text-[#9E3656] font-medium transition hover:text-[#6A2238]">Services</a></li>
+            <li><a href="#gallery" className="text-[#9E3656] font-medium transition hover:text-[#6A2238]">Gallery</a></li>
+            <li><a href="#about" className="text-[#9E3656] font-medium transition hover:text-[#6A2238]">About Us</a></li>
+            <li><a href="#contact" className="text-[#9E3656] font-medium transition hover:text-[#6A2238]">Contact</a></li>
           </ul>
 
           {/* desktop Book Now */}
-          <button className="hidden md:block book-btn bg-[#9E3656] text-white px-6 py-2.5 rounded-full font-semibold shadow-md md:hover:bg-[#6A2238] md:hover:shadow-lg md:hover:scale-105 active:scale-95 transition-all duration-300 text-sm md:text-base">
+          <button className="hidden md:block book-btn bg-[#9E3656] text-white px-6 py-2.5 rounded-full font-semibold shadow-md md:hover:bg-[#6A2238] md:hover:shadow-lg md:hover:scale-105 active:scale-95 transition-all duration-300 text-sm md:text-base mr-1">
             Book Now
           </button>
-
           {/* hamburger */}
           <button className="md:hidden text-[#9E3656]" onClick={() => setIsOpen(true)}>
             <Menu size={28} />
