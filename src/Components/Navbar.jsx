@@ -23,7 +23,7 @@ function Navbar() {
           </ul>
 
           {/* desktop Book Now */}
-          <button className="hidden md:block book-btn bg-[#9E3656] text-white px-6 py-2.5 rounded-full font-semibold shadow-md md:hover:bg-[#6A2238] md:hover:shadow-lg md:hover:scale-105 active:scale-95 transition-all duration-300 text-sm md:text-base mr-1">
+          <button className="hidden md:block book-btn bg-[#9E3656] text-white px-6 py-2.5 rounded-full font-semibold shadow-md md:hover:bg-[#6A2238] md:hover:shadow-lg md:hover:scale-105 active:scale-95 transition-all duration-300 text-sm md:text-base ">
             Book Now
           </button>
           {/* hamburger */}

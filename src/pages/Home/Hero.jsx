@@ -7,7 +7,7 @@ export default function Hero() {
         <h1 className="sr-only">Glow Salon</h1>
       </header>
 
-<section className="hero-section w-screen h-[85vh] min-h-[500px] max-h-[750px] relative flex items-center">     
+<section className="hero-section w-screen h-[85vh] relative flex items-center overflow-hidden">     
       {/* background image */}
 <img 
   src="/hero.jpg" 
